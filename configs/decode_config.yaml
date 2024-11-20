@@ -14,11 +14,11 @@
 
 model:
   # paths
-  llama_path: "path to llama model"
-  whisper_path: "path to whisper model"
-  beats_path: "path to beats model"
+  llama_path: "/home/jpong/Workspace/local_DB/speech_text/vicuna-7b-v1.5"
+  whisper_path: "/home/jpong/Workspace/local_DB/speech_text/whisper-large-v2"
+  beats_path: "/home/jpong/Workspace/local_DB/speech_text/beats/BEATs_iter3_plus_AS2M_finetuned_on_AS2M_cpt2.pt"
 
-  ckpt: "model ckpt" # model used for decoding
+  ckpt: "/home/jpong/Workspace/local_DB/speech_text/salmonn_7b_v0.pth" # model used for decoding
 
   freeze_whisper: True
   freeze_beats: True
